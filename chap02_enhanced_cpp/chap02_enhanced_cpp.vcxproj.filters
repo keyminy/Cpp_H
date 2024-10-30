@@ -36,10 +36,31 @@
     <ClCompile Include="Ex06_Reference.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P1_MySwap.cpp">
+    <ClCompile Include="D2_P1_MySwap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P2_user_rand.cpp">
+    <ClCompile Include="D2_P2_user_rand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex07_Reference_swap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex08_구조체와_ref.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex09_포인터상수화.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex10_다양한_초기화방법.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3_P1_회문.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3_P2_overloading_max.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3_P3_구조체.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

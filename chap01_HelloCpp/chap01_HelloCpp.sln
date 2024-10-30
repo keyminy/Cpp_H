@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap01_HelloCpp", "chap01_H
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap02_enhanced_cpp", "..\chap02_enhanced_cpp\chap02_enhanced_cpp.vcxproj", "{FDBBEFBA-AB70-4F5D-B7BB-1DB7A3F797AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap03_메모리관리와 동적할당", "..\chap03_메모리관리와 동적할당\chap03_메모리관리와 동적할당.vcxproj", "{16DC882C-16A0-4063-BEAC-630649C608DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{FDBBEFBA-AB70-4F5D-B7BB-1DB7A3F797AC}.Release|x64.Build.0 = Release|x64
 		{FDBBEFBA-AB70-4F5D-B7BB-1DB7A3F797AC}.Release|x86.ActiveCfg = Release|Win32
 		{FDBBEFBA-AB70-4F5D-B7BB-1DB7A3F797AC}.Release|x86.Build.0 = Release|Win32
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Debug|x64.ActiveCfg = Debug|x64
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Debug|x64.Build.0 = Debug|x64
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Debug|x86.Build.0 = Debug|Win32
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Release|x64.ActiveCfg = Release|x64
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Release|x64.Build.0 = Release|x64
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Release|x86.ActiveCfg = Release|Win32
+		{16DC882C-16A0-4063-BEAC-630649C608DF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
