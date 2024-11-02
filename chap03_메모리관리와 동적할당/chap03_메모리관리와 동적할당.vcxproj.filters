@@ -21,5 +21,14 @@
     <ClCompile Include="Ex02_정적변수.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ex03_동적할당.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex04_동적할당.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="P_동적할당_검색문자.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
