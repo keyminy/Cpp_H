@@ -10,12 +10,13 @@ enum State {
 	ROCK,
 	PAPER
 };
+
 class Player {
 private:
 	State state;
 public:
 	void inputState();
-	void playGame() const;
+	void playGame(const State& comState) const;
 	inline State getState() const { return state; };
 };
 
@@ -48,13 +49,42 @@ int main() {
 		cout << "컴퓨터 : " << strState[com.getRandomState()] << endl;
 		cout << "당신 : " << strState[player.getState()] << endl << endl;
 
-		player.playGame();
+		player.playGame(com.getRandomState());
 
 		cout << "한판 더<Y/y> / 종료<아무키>" << endl;
 		cin >> isPlay;
 	} while (isPlay == 'Y' || isPlay == 'y');
 
 	return 0;
+}
+
+void Player::inputState() {
+	unsigned int choice;
+	cout << "당신의 선택 : ";
+	cin >> choice;
+
+	while (choice < 1 || choice > 3) {
+		cout << "잘못된 선택입니다. 다시 선택하세요 (가위<1>, 바위<2>, 보<3>): ";
+		cin >> choice;
+	}
+
+	state = (State)(choice - 1);
+}
+
+void Player::playGame(const State& comState) const {
+	if (state == comState) {
+		cout << "[비겻다.]" << endl;
+	}
+	else if ((state == SISSORS && comState == PAPER)||
+			(state == ROCK && comState == SISSORS) ||
+			(state == PAPER && comState == ROCK)
+		) {
+		cout << "[이겼다.]" << endl;
+	}
+	else {
+		cout << "[졌다.]" << endl;
+	}
+
 }
 
 void Computer::setRandomState()
