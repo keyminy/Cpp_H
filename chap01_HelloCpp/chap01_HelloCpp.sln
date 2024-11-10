@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap04_구조체와 클래�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap05_접근제어자", "..\chap05_접근제어자\chap05_접근제어자.vcxproj", "{98C599DD-70E1-4195-B768-9682528DF01F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap06_생성자", "..\chap06_생성자\chap06_생성자.vcxproj", "{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{98C599DD-70E1-4195-B768-9682528DF01F}.Release|x64.Build.0 = Release|x64
 		{98C599DD-70E1-4195-B768-9682528DF01F}.Release|x86.ActiveCfg = Release|Win32
 		{98C599DD-70E1-4195-B768-9682528DF01F}.Release|x86.Build.0 = Release|Win32
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Debug|x64.ActiveCfg = Debug|x64
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Debug|x64.Build.0 = Debug|x64
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Debug|x86.Build.0 = Debug|Win32
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Release|x64.ActiveCfg = Release|x64
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Release|x64.Build.0 = Release|x64
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Release|x86.ActiveCfg = Release|Win32
+		{EF6A511C-50AF-43F9-9A02-2D8E6D2E5EDB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
