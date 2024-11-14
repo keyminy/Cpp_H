@@ -15,25 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex01_생성자.cpp">
+    <ClCompile Include="Ex01_소멸자.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Ex02_1_Circle_class_string.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex02_2_Circle_class_char.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex03_RGB_Class.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P1_StudentScore_M1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P1_StudentScore_M2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex04_Box_Class.cpp">
+    <ClCompile Include="Ex02_DynamicInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
