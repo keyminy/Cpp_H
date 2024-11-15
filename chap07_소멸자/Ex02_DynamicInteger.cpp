@@ -87,6 +87,8 @@ DynamicInt::DynamicInt(int count)
 
 void DynamicInt::setSize(int newSize)
 {
+	if (newSize < 0 || size == newSize)
+		return;
 	// newSize만큼 새로운 동적할당
 	int* temp = new int[newSize];
 	memset(temp, 0, sizeof(int) * newSize);
