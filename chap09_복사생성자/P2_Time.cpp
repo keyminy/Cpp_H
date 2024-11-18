@@ -12,9 +12,9 @@ public:
 	{}
 public:
 	void OutTime() const {
-		cout << "시 : " << this->hour;
-		cout << " ,분 : " << this->min;
-		cout << " ,초 : " << this->sec;
+		cout << this->hour << "시, ";
+		cout << this->min << " 분, ";
+		cout << this->sec << " 초";
 		cout << endl;
 	}
 	void AddSecond(const int sec) {
