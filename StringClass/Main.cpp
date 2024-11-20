@@ -11,5 +11,13 @@ int main() {
 	MyString s1 = "Hello world";
 	// MyString s2("tradition")
 	MyString s2 = "tradition";
+
+	MyString copy = s1; // 복사생성자 미구현시, 얕은 복사가됨
+	// MyString copy(s1);
+	// 동적메모리 누수때문에 프로그램 down이됨
+
+	cout << "s1 = " << s1.getString() << " ,길이 = " << s1.getLength() << endl;
+	cout << "s2 = " << s2.getString() << " ,길이 = " << s2.getLength() << endl;
+	cout << "copy = " << copy.getString() << " ,길이 = " << copy.getLength() << endl;
 	return 0;
 }

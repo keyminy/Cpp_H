@@ -3,6 +3,12 @@
 class MyString {
 public:
 	MyString(const char* pStr);
+	// 복사생성자
+	MyString(const MyString& other);
+	~MyString();
+public:
+	char* getString();;
+	int getLength();
 protected:
 private:
 	char* str = nullptr; // 동적 메모리의 주소를 저장

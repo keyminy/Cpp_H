@@ -14,3 +14,27 @@ MyString::MyString(const char* pStr) {
 	std::strcpy(this->str, pStr);
 	cout << "constructor call!\n";
 }
+MyString::MyString(const MyString& other) {
+	// MyString copy(s1);
+	// 깊은 복사 : 동적 메모리까지 모두 복사 필요
+	this->length = other.length;
+	this->str = new char[this->length + 1];
+	std::strcpy(this->str, other.str);
+	cout << "copy constructor call!!\n";
+}
+
+MyString::~MyString() {
+	cout << this->str << " destructor call!\n";
+	delete[] this->str;
+}
+
+char* MyString::getString()
+{
+	// 동적메모리의 주소를 리턴
+	return this->str;
+}
+
+int MyString::getLength()
+{	//문자열의 길이를 리턴
+	return this->length;
+}
