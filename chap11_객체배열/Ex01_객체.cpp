@@ -14,7 +14,7 @@ public:
 		cout << "1. constructor\n";
 	}
 	~Point() {
-		cout << "destructor\n";
+		cout << this->getPoint() << "destructor\n";
 	}
 	inline string getPoint() const {
 		return "(" + to_string(x) + ", " + to_string(y) + ")";
@@ -62,6 +62,10 @@ int main() {
 
 	// Since C++11~
 	Point* p = new Point[3]{Point(1,2),Point(2,3),Point(10,20)};
+	// why? : 왜 소멸자가 호출될까?
+	p[0] = Point(0, 7);
+	p[1] = Point(0, 7);
+	p[2] = Point(0, 7);
 	cout << "p[0]" << p[0].getPoint() << endl;
 	cout << "p[1]" << p[1].getPoint() << endl;
 	cout << "p[2]" << p[2].getPoint() << endl;

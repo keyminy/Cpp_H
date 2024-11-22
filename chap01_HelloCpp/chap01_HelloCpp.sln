@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringClass", "..\StringCla
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap11_객체배열", "..\chap11_객체배열\chap11_객체배열.vcxproj", "{BD5742A3-A95A-43A5-9A9E-638E78178EF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap12_상속", "..\chap12_상속\chap12_상속.vcxproj", "{A22D8A03-F409-4A05-B114-231348F00318}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{BD5742A3-A95A-43A5-9A9E-638E78178EF3}.Release|x64.Build.0 = Release|x64
 		{BD5742A3-A95A-43A5-9A9E-638E78178EF3}.Release|x86.ActiveCfg = Release|Win32
 		{BD5742A3-A95A-43A5-9A9E-638E78178EF3}.Release|x86.Build.0 = Release|Win32
+		{A22D8A03-F409-4A05-B114-231348F00318}.Debug|x64.ActiveCfg = Debug|x64
+		{A22D8A03-F409-4A05-B114-231348F00318}.Debug|x64.Build.0 = Debug|x64
+		{A22D8A03-F409-4A05-B114-231348F00318}.Debug|x86.ActiveCfg = Debug|Win32
+		{A22D8A03-F409-4A05-B114-231348F00318}.Debug|x86.Build.0 = Debug|Win32
+		{A22D8A03-F409-4A05-B114-231348F00318}.Release|x64.ActiveCfg = Release|x64
+		{A22D8A03-F409-4A05-B114-231348F00318}.Release|x64.Build.0 = Release|x64
+		{A22D8A03-F409-4A05-B114-231348F00318}.Release|x86.ActiveCfg = Release|Win32
+		{A22D8A03-F409-4A05-B114-231348F00318}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
