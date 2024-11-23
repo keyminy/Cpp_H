@@ -5,26 +5,28 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-inline Student::Student()
+Student::Student() // :Human() // 자동으로 부모생성자 호출됨!
 {
 	cout << "1. Student Constructor\n";
 }
 
-inline Student::Student(string stNo, string major)
+Student::Student(string name,int age,string stNo, string major)
+	:Human(name,age) // 여기(자식)에서 받은 name,age를 가지고 부모의 생성자 호출!!
 {
 	this->stNo = stNo;
 	this->major = major;
-	cout << "2. Student Constructor\n";
+	cout << "2. Student Copy Constructor\n";
 }
 
-inline Student::Student(const Student& other)
+Student::Student(const Student& ref)// :Human() // 자동으로 부모생성자 호출됨!
+	:Human(ref) //부모의 복사 생성자 호출
 {
-	this->stNo = other.stNo;
-	this->major = other.major;
+	this->stNo = ref.stNo;
+	this->major = ref.major;
 	cout << "3. Student Constructor\n";
 }
 
-inline Student::~Student()
+Student::~Student()
 {
 	cout << "~Student Destructor\n";
 }

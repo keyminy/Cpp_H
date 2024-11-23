@@ -5,17 +5,17 @@ using std::string;
 
 class Human {
 public: // 어디서든 접근 가능
-	inline Human();
-	inline Human(string name,int age);
+	 Human();
+	 Human(string name,int age);
 	//복사 생성자
-	inline Human(const Human& other);
-	inline ~Human();
+	 Human(const Human& other);
+	 ~Human();
 public:
-	inline string getName() const;
-	inline int getAge() const;
+	 string getName() const;
+	 int getAge() const;
 public:
-	inline void setName(string name);
-	inline void setAge(int age);
+	 void setName(string name);
+	 void setAge(int age);
 protected: // 자신의 클래스 + 상속된 클래스에서 접근 가능
 	//string name = "";
 	//int age = 0;

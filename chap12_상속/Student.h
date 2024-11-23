@@ -3,10 +3,10 @@
 
 class Student :public Human {
 public:
-	inline Student();
-	inline Student(string stNo, string major);
-	inline Student(const Student& other);
-	inline ~Student();
+	 Student();
+	 Student(string name, int age, string stNo, string major);
+	 Student(const Student& other);
+	 ~Student();
 	void displayStudent() const;
 protected:
 private:

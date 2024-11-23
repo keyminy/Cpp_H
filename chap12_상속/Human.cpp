@@ -5,12 +5,12 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-inline Human::Human()
+Human::Human()
 {
 	cout << "1. Human Constructor\n";
 }
 
-inline Human::Human(string name, int age)
+Human::Human(string name, int age)
 {
 	/*this->name = name;
 	this->age = age;*/
@@ -19,7 +19,7 @@ inline Human::Human(string name, int age)
 	cout << "2. Human Constructor\n";
 }
 
-inline Human::Human(const Human& other)
+Human::Human(const Human& other)
 {/*
 	this->name = other.name;
 	this->age = other.age;*/
@@ -28,27 +28,27 @@ inline Human::Human(const Human& other)
 	cout << "3. Human Copy Constructor\n";
 }
 
-inline Human::~Human()
+Human::~Human()
 {
 	cout << "~Human Destructor\n";
 }
 
-inline string Human::getName() const
+string Human::getName() const
 {
 	return this->name;
 }
 
-inline int Human::getAge() const
+int Human::getAge() const
 {
 	return this->age;
 }
 
-inline void Human::setName(string name)
+void Human::setName(string name)
 {
 	this->name = name;
 }
 
-inline void Human::setAge(int age)
+void Human::setAge(int age)
 {
 	if(age > 0)
 		this->age = age;
